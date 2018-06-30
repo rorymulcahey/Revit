@@ -1,0 +1,16 @@
+C:\Users\rorymulcahey\source\repos\AllViews\CS\bin\Debug\AllViews.dll
+C:\Users\rorymulcahey\source\repos\AllViews\CS\bin\Debug\AllViews.pdb
+C:\Users\rorymulcahey\source\repos\AllViews\CS\obj\Debug\AllViews.csprojAssemblyReference.cache
+C:\Users\rorymulcahey\source\repos\AllViews\CS\obj\Debug\Revit.SDK.Samples.AllViews.CS.AllViewsForm.resources
+C:\Users\rorymulcahey\source\repos\AllViews\CS\obj\Debug\AllViews.csproj.GenerateResource.cache
+C:\Users\rorymulcahey\source\repos\AllViews\CS\obj\Debug\AllViews.csproj.CoreCompileInputs.cache
+C:\Users\rorymulcahey\source\repos\AllViews\CS\obj\Debug\AllViews.dll
+C:\Users\rorymulcahey\source\repos\AllViews\CS\obj\Debug\AllViews.pdb
+C:\Users\rorymulcahey\source\repos\AllViews_V1\CS\bin\Debug\AllViews.dll
+C:\Users\rorymulcahey\source\repos\AllViews_V1\CS\bin\Debug\AllViews.pdb
+C:\Users\rorymulcahey\source\repos\AllViews_V1\CS\obj\Debug\AllViews.csprojAssemblyReference.cache
+C:\Users\rorymulcahey\source\repos\AllViews_V1\CS\obj\Debug\Revit.SDK.Samples.AllViews.CS.AllViewsForm.resources
+C:\Users\rorymulcahey\source\repos\AllViews_V1\CS\obj\Debug\AllViews.csproj.GenerateResource.cache
+C:\Users\rorymulcahey\source\repos\AllViews_V1\CS\obj\Debug\AllViews.csproj.CoreCompileInputs.cache
+C:\Users\rorymulcahey\source\repos\AllViews_V1\CS\obj\Debug\AllViews.dll
+C:\Users\rorymulcahey\source\repos\AllViews_V1\CS\obj\Debug\AllViews.pdb
