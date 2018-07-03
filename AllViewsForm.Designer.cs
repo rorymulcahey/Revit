@@ -72,7 +72,7 @@ namespace Revit.SDK.Samples.AllViews.CS
             this.allViewsGroupBox.Size = new System.Drawing.Size(212, 242);
             this.allViewsGroupBox.TabIndex = 0;
             this.allViewsGroupBox.TabStop = false;
-            this.allViewsGroupBox.Text = "All Views";
+            this.allViewsGroupBox.Text = "Select Views";
             // 
             // allViewsTreeView
             // 
@@ -113,9 +113,9 @@ namespace Revit.SDK.Samples.AllViews.CS
             this.sheetNameLabel.AutoSize = true;
             this.sheetNameLabel.Location = new System.Drawing.Point(6, 170);
             this.sheetNameLabel.Name = "sheetNameLabel";
-            this.sheetNameLabel.Size = new System.Drawing.Size(66, 13);
+            this.sheetNameLabel.Size = new System.Drawing.Size(64, 13);
             this.sheetNameLabel.TabIndex = 5;
-            this.sheetNameLabel.Text = "Sheet Name";
+            this.sheetNameLabel.Text = "Sheet Prefix";
             // 
             // sheetNameTextBox
             // 
@@ -123,16 +123,16 @@ namespace Revit.SDK.Samples.AllViews.CS
             this.sheetNameTextBox.Name = "sheetNameTextBox";
             this.sheetNameTextBox.Size = new System.Drawing.Size(88, 20);
             this.sheetNameTextBox.TabIndex = 2;
-            this.sheetNameTextBox.Text = "Unname";
+            this.sheetNameTextBox.Text = "Technology - ";
             // 
             // titleBlocksLabel
             // 
             this.titleBlocksLabel.AutoSize = true;
             this.titleBlocksLabel.Location = new System.Drawing.Point(6, 19);
             this.titleBlocksLabel.Name = "titleBlocksLabel";
-            this.titleBlocksLabel.Size = new System.Drawing.Size(59, 13);
+            this.titleBlocksLabel.Size = new System.Drawing.Size(62, 13);
             this.titleBlocksLabel.TabIndex = 3;
-            this.titleBlocksLabel.Text = "TitleBlocks";
+            this.titleBlocksLabel.Text = "Title Blocks";
             // 
             // cancelButton
             // 
@@ -161,7 +161,7 @@ namespace Revit.SDK.Samples.AllViews.CS
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.cancelButton;
-            this.ClientSize = new System.Drawing.Size(459, 266);
+            this.ClientSize = new System.Drawing.Size(456, 266);
             this.Controls.Add(this.GenerateSheetGroupBox);
             this.Controls.Add(this.allViewsGroupBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;

@@ -89,7 +89,7 @@ namespace Revit.SDK.Samples.AllViews.CS
             catch (Exception e)
             {
                 // message = e.Message;
-                if (e.Message == "viewId cannot be added to the ViewSheet." + System.Environment.NewLine + "Parameter name: viewId")
+                if (e.Message == "viewId cannot be added to the ViewSheet." + Environment.NewLine + "Parameter name: viewId")
                 {
                     TaskDialog.Show("Error", "Cannot reuse the same view");
                 }
@@ -120,7 +120,7 @@ namespace Revit.SDK.Samples.AllViews.CS
         private string m_sheetName;
         private double m_rows;
 
-        private double TITLEBAR = 0.2;
+        private double TITLEBAR = 0.11;
         private double GOLDENSECTION = 0.618;
 
         /// <summary>
@@ -305,7 +305,10 @@ namespace Revit.SDK.Samples.AllViews.CS
             foreach (Autodesk.Revit.DB.View currentView in m_selectedViews)
             {
                 ViewSheet sheet = ViewSheet.Create(doc, m_titleBlock.Id);
-                sheet.Name = SheetName;
+                String viewName = currentView.Name;
+                //String viewCategory = currentView.Category.CategoryType.ToString();
+                String viewType = currentView.ViewType.ToString();
+                sheet.Name = SheetName + viewType  + " - " + viewName;
                 PlaceViews(currentView, sheet);
             }
         }
@@ -411,7 +414,7 @@ namespace Revit.SDK.Samples.AllViews.CS
         private Autodesk.Revit.DB.UV GetOffSet(BoundingBoxUV bBox, double x, double y)
         {
             //return new Autodesk.Revit.DB.UV(bBox.Min.U + x * GOLDENSECTION, bBox.Min.V + y * GOLDENSECTION);
-            return new Autodesk.Revit.DB.UV(bBox.Max.U/2, bBox.Max.V/2);
+            return new UV(bBox.Max.U*.45, bBox.Max.V/2);
         }
 
         /// <summary>
