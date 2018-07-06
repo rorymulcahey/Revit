@@ -1,0 +1,7 @@
+C:\Users\rorymulcahey\source\repos\AllViews_V1\CS\bin\Release\AllViews.dll
+C:\Users\rorymulcahey\source\repos\AllViews_V1\CS\bin\Release\AllViews.pdb
+C:\Users\rorymulcahey\source\repos\AllViews_V1\CS\obj\Release\Revit.SDK.Samples.AllViews.CS.AllViewsForm.resources
+C:\Users\rorymulcahey\source\repos\AllViews_V1\CS\obj\Release\AllViews.csproj.GenerateResource.cache
+C:\Users\rorymulcahey\source\repos\AllViews_V1\CS\obj\Release\AllViews.csproj.CoreCompileInputs.cache
+C:\Users\rorymulcahey\source\repos\AllViews_V1\CS\obj\Release\AllViews.dll
+C:\Users\rorymulcahey\source\repos\AllViews_V1\CS\obj\Release\AllViews.pdb
